@@ -1,0 +1,8 @@
+platform :ios
+
+pod do |spec|
+  spec.name         = 'MBProgressHUD'
+  spec.version      = '0.50m'
+  spec.source       = { :git => 'https://github.com/jdg/MBProgressHUD.git', :branch => 'master' }
+  spec.source_files = 'MBProgressHUD.*'
+end

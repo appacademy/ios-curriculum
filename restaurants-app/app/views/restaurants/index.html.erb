@@ -1,0 +1,9 @@
+<ul>
+  <% for restaurant in @restaurants %>
+    <li>
+      <%= link_to(restaurant.name, restaurant_url(restaurant)) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "Create new restaurant!", new_restaurant_url %>

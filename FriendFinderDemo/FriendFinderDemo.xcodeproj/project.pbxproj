@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8BCE38D15EFC1C9008308F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCE38C15EFC1C9008308F5 /* UIKit.framework */; };
+		E8BCE38F15EFC1C9008308F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCE38E15EFC1C9008308F5 /* Foundation.framework */; };
+		E8BCE39115EFC1C9008308F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCE39015EFC1C9008308F5 /* CoreGraphics.framework */; };
+		E8BCE39715EFC1C9008308F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8BCE39515EFC1C9008308F5 /* InfoPlist.strings */; };
+		E8BCE39915EFC1C9008308F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCE39815EFC1C9008308F5 /* main.m */; };
+		E8BCE39D15EFC1C9008308F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCE39C15EFC1C9008308F5 /* AppDelegate.m */; };
+		E8BCE3A515EFC1CA008308F5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCE3A415EFC1CA008308F5 /* SenTestingKit.framework */; };
+		E8BCE3A615EFC1CA008308F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCE38C15EFC1C9008308F5 /* UIKit.framework */; };
+		E8BCE3A715EFC1CA008308F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCE38E15EFC1C9008308F5 /* Foundation.framework */; };
+		E8BCE3AF15EFC1CA008308F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8BCE3AD15EFC1CA008308F5 /* InfoPlist.strings */; };
+		E8BCE3B215EFC1CA008308F5 /* FriendFinderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCE3B115EFC1CA008308F5 /* FriendFinderDemoTests.m */; };
+		E8BCE3BD15EFC1E1008308F5 /* FriendFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8BCE3BB15EFC1E1008308F5 /* FriendFinder.xcdatamodeld */; };
+		E8BCE3BF15EFC32E008308F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCE3BE15EFC32E008308F5 /* CoreData.framework */; };
+		E8BCE3C215EFC33E008308F5 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCE3C115EFC33E008308F5 /* Friend.m */; };
+		E8BCE3C815EFC46D008308F5 /* FriendFinderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCE3C715EFC46D008308F5 /* FriendFinderStore.m */; };
+		E8BCE3CF15EFD46E008308F5 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCE3CD15EFD46E008308F5 /* FriendsViewController.m */; };
+		E8BCE3D015EFD46E008308F5 /* FriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8BCE3CE15EFD46E008308F5 /* FriendsViewController.xib */; };
+		E8BCE3E615EFDB0F008308F5 /* NewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCE3E415EFDB0F008308F5 /* NewFriendViewController.m */; };
+		E8BCE3E715EFDB0F008308F5 /* NewFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8BCE3E515EFDB0F008308F5 /* NewFriendViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8BCE3A815EFC1CA008308F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8BCE37F15EFC1C9008308F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8BCE38715EFC1C9008308F5;
+			remoteInfo = FriendFinderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8BCE38815EFC1C9008308F5 /* FriendFinderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendFinderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BCE38C15EFC1C9008308F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E8BCE38E15EFC1C9008308F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E8BCE39015EFC1C9008308F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8BCE39415EFC1C9008308F5 /* FriendFinderDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendFinderDemo-Info.plist"; sourceTree = "<group>"; };
+		E8BCE39615EFC1C9008308F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8BCE39815EFC1C9008308F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8BCE39A15EFC1C9008308F5 /* FriendFinderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FriendFinderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E8BCE39B15EFC1C9008308F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8BCE39C15EFC1C9008308F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8BCE3A315EFC1CA008308F5 /* FriendFinderDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendFinderDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BCE3A415EFC1CA008308F5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E8BCE3AC15EFC1CA008308F5 /* FriendFinderDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendFinderDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E8BCE3AE15EFC1CA008308F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8BCE3B015EFC1CA008308F5 /* FriendFinderDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendFinderDemoTests.h; sourceTree = "<group>"; };
+		E8BCE3B115EFC1CA008308F5 /* FriendFinderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendFinderDemoTests.m; sourceTree = "<group>"; };
+		E8BCE3BC15EFC1E1008308F5 /* FriendFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendFinder.xcdatamodel; sourceTree = "<group>"; };
+		E8BCE3BE15EFC32E008308F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E8BCE3C015EFC33E008308F5 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		E8BCE3C115EFC33E008308F5 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		E8BCE3C615EFC46D008308F5 /* FriendFinderStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendFinderStore.h; sourceTree = "<group>"; };
+		E8BCE3C715EFC46D008308F5 /* FriendFinderStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendFinderStore.m; sourceTree = "<group>"; };
+		E8BCE3CC15EFD46E008308F5 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		E8BCE3CD15EFD46E008308F5 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		E8BCE3CE15EFD46E008308F5 /* FriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsViewController.xib; sourceTree = "<group>"; };
+		E8BCE3E315EFDB00008308F5 /* NewFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFriendViewController.h; sourceTree = "<group>"; };
+		E8BCE3E415EFDB0F008308F5 /* NewFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFriendViewController.m; sourceTree = "<group>"; };
+		E8BCE3E515EFDB0F008308F5 /* NewFriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewFriendViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8BCE38515EFC1C9008308F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCE3BF15EFC32E008308F5 /* CoreData.framework in Frameworks */,
+				E8BCE38D15EFC1C9008308F5 /* UIKit.framework in Frameworks */,
+				E8BCE38F15EFC1C9008308F5 /* Foundation.framework in Frameworks */,
+				E8BCE39115EFC1C9008308F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BCE39F15EFC1CA008308F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCE3A515EFC1CA008308F5 /* SenTestingKit.framework in Frameworks */,
+				E8BCE3A615EFC1CA008308F5 /* UIKit.framework in Frameworks */,
+				E8BCE3A715EFC1CA008308F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8BCE37D15EFC1C9008308F5 = {
+			isa = PBXGroup;
+			children = (
+				E8BCE39215EFC1C9008308F5 /* FriendFinderDemo */,
+				E8BCE3AA15EFC1CA008308F5 /* FriendFinderDemoTests */,
+				E8BCE38B15EFC1C9008308F5 /* Frameworks */,
+				E8BCE38915EFC1C9008308F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8BCE38915EFC1C9008308F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCE38815EFC1C9008308F5 /* FriendFinderDemo.app */,
+				E8BCE3A315EFC1CA008308F5 /* FriendFinderDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8BCE38B15EFC1C9008308F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCE3BE15EFC32E008308F5 /* CoreData.framework */,
+				E8BCE38C15EFC1C9008308F5 /* UIKit.framework */,
+				E8BCE38E15EFC1C9008308F5 /* Foundation.framework */,
+				E8BCE39015EFC1C9008308F5 /* CoreGraphics.framework */,
+				E8BCE3A415EFC1CA008308F5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8BCE39215EFC1C9008308F5 /* FriendFinderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCE39B15EFC1C9008308F5 /* AppDelegate.h */,
+				E8BCE39C15EFC1C9008308F5 /* AppDelegate.m */,
+				E8BCE3BB15EFC1E1008308F5 /* FriendFinder.xcdatamodeld */,
+				E8BCE3C015EFC33E008308F5 /* Friend.h */,
+				E8BCE3C115EFC33E008308F5 /* Friend.m */,
+				E8BCE3C615EFC46D008308F5 /* FriendFinderStore.h */,
+				E8BCE3C715EFC46D008308F5 /* FriendFinderStore.m */,
+				E8BCE3CC15EFD46E008308F5 /* FriendsViewController.h */,
+				E8BCE3CD15EFD46E008308F5 /* FriendsViewController.m */,
+				E8BCE3CE15EFD46E008308F5 /* FriendsViewController.xib */,
+				E8BCE3E315EFDB00008308F5 /* NewFriendViewController.h */,
+				E8BCE3E415EFDB0F008308F5 /* NewFriendViewController.m */,
+				E8BCE3E515EFDB0F008308F5 /* NewFriendViewController.xib */,
+				E8BCE39315EFC1C9008308F5 /* Supporting Files */,
+			);
+			path = FriendFinderDemo;
+			sourceTree = "<group>";
+		};
+		E8BCE39315EFC1C9008308F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCE39415EFC1C9008308F5 /* FriendFinderDemo-Info.plist */,
+				E8BCE39515EFC1C9008308F5 /* InfoPlist.strings */,
+				E8BCE39815EFC1C9008308F5 /* main.m */,
+				E8BCE39A15EFC1C9008308F5 /* FriendFinderDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8BCE3AA15EFC1CA008308F5 /* FriendFinderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCE3B015EFC1CA008308F5 /* FriendFinderDemoTests.h */,
+				E8BCE3B115EFC1CA008308F5 /* FriendFinderDemoTests.m */,
+				E8BCE3AB15EFC1CA008308F5 /* Supporting Files */,
+			);
+			path = FriendFinderDemoTests;
+			sourceTree = "<group>";
+		};
+		E8BCE3AB15EFC1CA008308F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCE3AC15EFC1CA008308F5 /* FriendFinderDemoTests-Info.plist */,
+				E8BCE3AD15EFC1CA008308F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8BCE38715EFC1C9008308F5 /* FriendFinderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8BCE3B515EFC1CA008308F5 /* Build configuration list for PBXNativeTarget "FriendFinderDemo" */;
+			buildPhases = (
+				E8BCE38415EFC1C9008308F5 /* Sources */,
+				E8BCE38515EFC1C9008308F5 /* Frameworks */,
+				E8BCE38615EFC1C9008308F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendFinderDemo;
+			productName = FriendFinderDemo;
+			productReference = E8BCE38815EFC1C9008308F5 /* FriendFinderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8BCE3A215EFC1CA008308F5 /* FriendFinderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8BCE3B815EFC1CA008308F5 /* Build configuration list for PBXNativeTarget "FriendFinderDemoTests" */;
+			buildPhases = (
+				E8BCE39E15EFC1CA008308F5 /* Sources */,
+				E8BCE39F15EFC1CA008308F5 /* Frameworks */,
+				E8BCE3A015EFC1CA008308F5 /* Resources */,
+				E8BCE3A115EFC1CA008308F5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8BCE3A915EFC1CA008308F5 /* PBXTargetDependency */,
+			);
+			name = FriendFinderDemoTests;
+			productName = FriendFinderDemoTests;
+			productReference = E8BCE3A315EFC1CA008308F5 /* FriendFinderDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8BCE37F15EFC1C9008308F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Edward Ruggeri";
+			};
+			buildConfigurationList = E8BCE38215EFC1C9008308F5 /* Build configuration list for PBXProject "FriendFinderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8BCE37D15EFC1C9008308F5;
+			productRefGroup = E8BCE38915EFC1C9008308F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8BCE38715EFC1C9008308F5 /* FriendFinderDemo */,
+				E8BCE3A215EFC1CA008308F5 /* FriendFinderDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8BCE38615EFC1C9008308F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCE39715EFC1C9008308F5 /* InfoPlist.strings in Resources */,
+				E8BCE3D015EFD46E008308F5 /* FriendsViewController.xib in Resources */,
+				E8BCE3E715EFDB0F008308F5 /* NewFriendViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BCE3A015EFC1CA008308F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCE3AF15EFC1CA008308F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E8BCE3A115EFC1CA008308F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8BCE38415EFC1C9008308F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCE39915EFC1C9008308F5 /* main.m in Sources */,
+				E8BCE39D15EFC1C9008308F5 /* AppDelegate.m in Sources */,
+				E8BCE3BD15EFC1E1008308F5 /* FriendFinder.xcdatamodeld in Sources */,
+				E8BCE3C215EFC33E008308F5 /* Friend.m in Sources */,
+				E8BCE3C815EFC46D008308F5 /* FriendFinderStore.m in Sources */,
+				E8BCE3CF15EFD46E008308F5 /* FriendsViewController.m in Sources */,
+				E8BCE3E615EFDB0F008308F5 /* NewFriendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BCE39E15EFC1CA008308F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCE3B215EFC1CA008308F5 /* FriendFinderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8BCE3A915EFC1CA008308F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8BCE38715EFC1C9008308F5 /* FriendFinderDemo */;
+			targetProxy = E8BCE3A815EFC1CA008308F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8BCE39515EFC1C9008308F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8BCE39615EFC1C9008308F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E8BCE3AD15EFC1CA008308F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8BCE3AE15EFC1CA008308F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8BCE3B315EFC1CA008308F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8BCE3B415EFC1CA008308F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8BCE3B615EFC1CA008308F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendFinderDemo/FriendFinderDemo-Prefix.pch";
+				INFOPLIST_FILE = "FriendFinderDemo/FriendFinderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E8BCE3B715EFC1CA008308F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendFinderDemo/FriendFinderDemo-Prefix.pch";
+				INFOPLIST_FILE = "FriendFinderDemo/FriendFinderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E8BCE3B915EFC1CA008308F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FriendFinderDemo.app/FriendFinderDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendFinderDemo/FriendFinderDemo-Prefix.pch";
+				INFOPLIST_FILE = "FriendFinderDemoTests/FriendFinderDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E8BCE3BA15EFC1CA008308F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FriendFinderDemo.app/FriendFinderDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendFinderDemo/FriendFinderDemo-Prefix.pch";
+				INFOPLIST_FILE = "FriendFinderDemoTests/FriendFinderDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8BCE38215EFC1C9008308F5 /* Build configuration list for PBXProject "FriendFinderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BCE3B315EFC1CA008308F5 /* Debug */,
+				E8BCE3B415EFC1CA008308F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8BCE3B515EFC1CA008308F5 /* Build configuration list for PBXNativeTarget "FriendFinderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BCE3B615EFC1CA008308F5 /* Debug */,
+				E8BCE3B715EFC1CA008308F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8BCE3B815EFC1CA008308F5 /* Build configuration list for PBXNativeTarget "FriendFinderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BCE3B915EFC1CA008308F5 /* Debug */,
+				E8BCE3BA15EFC1CA008308F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8BCE3BB15EFC1E1008308F5 /* FriendFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8BCE3BC15EFC1E1008308F5 /* FriendFinder.xcdatamodel */,
+			);
+			currentVersion = E8BCE3BC15EFC1E1008308F5 /* FriendFinder.xcdatamodel */;
+			path = FriendFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8BCE37F15EFC1C9008308F5 /* Project object */;
+}

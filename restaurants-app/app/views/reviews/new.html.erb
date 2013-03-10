@@ -1,0 +1,21 @@
+<h1>Create new review for <%= @review.restaurant.name %>!</h1>
+
+<%= form_for(@review) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <br>
+
+  <%= f.label :reviewer %>
+  <%= f.text_field :reviewer %>
+
+  <br>
+
+  <%= f.label :body %>
+  <%= f.text_area :body %>
+
+  <br>
+
+  <%= f.hidden_field :restaurant_id %>
+  <%= f.submit "Review!" %>
+<% end %>

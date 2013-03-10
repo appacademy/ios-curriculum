@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1123DD7515E2DF6D0028A9C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD7415E2DF6D0028A9C4 /* UIKit.framework */; };
+		1123DD7715E2DF6D0028A9C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD7615E2DF6D0028A9C4 /* Foundation.framework */; };
+		1123DD7915E2DF6D0028A9C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD7815E2DF6D0028A9C4 /* CoreGraphics.framework */; };
+		1123DD7F15E2DF6D0028A9C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1123DD7D15E2DF6D0028A9C4 /* InfoPlist.strings */; };
+		1123DD8115E2DF6D0028A9C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123DD8015E2DF6D0028A9C4 /* main.m */; };
+		1123DD8515E2DF6D0028A9C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123DD8415E2DF6D0028A9C4 /* AppDelegate.m */; };
+		1123DD8D15E2E0D40028A9C4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123DD8C15E2E0D40028A9C4 /* Message.m */; };
+		1123DD9015E2E1320028A9C4 /* MessageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123DD8F15E2E1320028A9C4 /* MessageStore.m */; };
+		1123DD9215E2E2C80028A9C4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD9115E2E2C80028A9C4 /* Parse.framework */; };
+		1123DD9415E2E3210028A9C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD9315E2E3210028A9C4 /* AudioToolbox.framework */; };
+		1123DD9615E2E3290028A9C4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD9515E2E3290028A9C4 /* CFNetwork.framework */; };
+		1123DD9815E2E3380028A9C4 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD9715E2E3380028A9C4 /* libz.1.1.3.dylib */; };
+		1123DD9A15E2E33E0028A9C4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD9915E2E33E0028A9C4 /* MobileCoreServices.framework */; };
+		1123DD9C15E2E3470028A9C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD9B15E2E3470028A9C4 /* QuartzCore.framework */; };
+		1123DD9E15E2E34D0028A9C4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD9D15E2E34D0028A9C4 /* Security.framework */; };
+		1123DDA015E2E3530028A9C4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DD9F15E2E3530028A9C4 /* StoreKit.framework */; };
+		1123DDA215E2E3620028A9C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123DDA115E2E3620028A9C4 /* SystemConfiguration.framework */; };
+		1123DDA615E2E6AB0028A9C4 /* ListMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123DDA415E2E6AB0028A9C4 /* ListMessagesViewController.m */; };
+		1123DDA715E2E6AB0028A9C4 /* ListMessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1123DDA515E2E6AB0028A9C4 /* ListMessagesViewController.xib */; };
+		1123DDB315E2F4D40028A9C4 /* DisplayMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123DDB115E2F4D40028A9C4 /* DisplayMessageViewController.m */; };
+		1123DDB415E2F4D40028A9C4 /* DisplayMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1123DDB215E2F4D40028A9C4 /* DisplayMessageViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1123DD7015E2DF6D0028A9C4 /* MessengerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1123DD7415E2DF6D0028A9C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1123DD7615E2DF6D0028A9C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1123DD7815E2DF6D0028A9C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1123DD7C15E2DF6D0028A9C4 /* MessengerApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MessengerApp-Info.plist"; sourceTree = "<group>"; };
+		1123DD7E15E2DF6D0028A9C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1123DD8015E2DF6D0028A9C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1123DD8215E2DF6D0028A9C4 /* MessengerApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MessengerApp-Prefix.pch"; sourceTree = "<group>"; };
+		1123DD8315E2DF6D0028A9C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1123DD8415E2DF6D0028A9C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1123DD8B15E2E0D40028A9C4 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		1123DD8C15E2E0D40028A9C4 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		1123DD8E15E2E1320028A9C4 /* MessageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStore.h; sourceTree = "<group>"; };
+		1123DD8F15E2E1320028A9C4 /* MessageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageStore.m; sourceTree = "<group>"; };
+		1123DD9115E2E2C80028A9C4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		1123DD9315E2E3210028A9C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1123DD9515E2E3290028A9C4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1123DD9715E2E3380028A9C4 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		1123DD9915E2E33E0028A9C4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1123DD9B15E2E3470028A9C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1123DD9D15E2E34D0028A9C4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1123DD9F15E2E3530028A9C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1123DDA115E2E3620028A9C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1123DDA315E2E6AB0028A9C4 /* ListMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListMessagesViewController.h; sourceTree = "<group>"; };
+		1123DDA415E2E6AB0028A9C4 /* ListMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListMessagesViewController.m; sourceTree = "<group>"; };
+		1123DDA515E2E6AB0028A9C4 /* ListMessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListMessagesViewController.xib; sourceTree = "<group>"; };
+		1123DDB015E2F4D40028A9C4 /* DisplayMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayMessageViewController.h; sourceTree = "<group>"; };
+		1123DDB115E2F4D40028A9C4 /* DisplayMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayMessageViewController.m; sourceTree = "<group>"; };
+		1123DDB215E2F4D40028A9C4 /* DisplayMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayMessageViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1123DD6D15E2DF6C0028A9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1123DDA215E2E3620028A9C4 /* SystemConfiguration.framework in Frameworks */,
+				1123DDA015E2E3530028A9C4 /* StoreKit.framework in Frameworks */,
+				1123DD9E15E2E34D0028A9C4 /* Security.framework in Frameworks */,
+				1123DD9C15E2E3470028A9C4 /* QuartzCore.framework in Frameworks */,
+				1123DD9A15E2E33E0028A9C4 /* MobileCoreServices.framework in Frameworks */,
+				1123DD9815E2E3380028A9C4 /* libz.1.1.3.dylib in Frameworks */,
+				1123DD7915E2DF6D0028A9C4 /* CoreGraphics.framework in Frameworks */,
+				1123DD9615E2E3290028A9C4 /* CFNetwork.framework in Frameworks */,
+				1123DD9415E2E3210028A9C4 /* AudioToolbox.framework in Frameworks */,
+				1123DD7515E2DF6D0028A9C4 /* UIKit.framework in Frameworks */,
+				1123DD7715E2DF6D0028A9C4 /* Foundation.framework in Frameworks */,
+				1123DD9215E2E2C80028A9C4 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1123DD6515E2DF6C0028A9C4 = {
+			isa = PBXGroup;
+			children = (
+				1123DD7A15E2DF6D0028A9C4 /* MessengerApp */,
+				1123DD7315E2DF6D0028A9C4 /* Frameworks */,
+				1123DD7115E2DF6D0028A9C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1123DD7115E2DF6D0028A9C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1123DD7015E2DF6D0028A9C4 /* MessengerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1123DD7315E2DF6D0028A9C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1123DDA115E2E3620028A9C4 /* SystemConfiguration.framework */,
+				1123DD9F15E2E3530028A9C4 /* StoreKit.framework */,
+				1123DD9D15E2E34D0028A9C4 /* Security.framework */,
+				1123DD9B15E2E3470028A9C4 /* QuartzCore.framework */,
+				1123DD9915E2E33E0028A9C4 /* MobileCoreServices.framework */,
+				1123DD9715E2E3380028A9C4 /* libz.1.1.3.dylib */,
+				1123DD9515E2E3290028A9C4 /* CFNetwork.framework */,
+				1123DD9315E2E3210028A9C4 /* AudioToolbox.framework */,
+				1123DD9115E2E2C80028A9C4 /* Parse.framework */,
+				1123DD7415E2DF6D0028A9C4 /* UIKit.framework */,
+				1123DD7615E2DF6D0028A9C4 /* Foundation.framework */,
+				1123DD7815E2DF6D0028A9C4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1123DD7A15E2DF6D0028A9C4 /* MessengerApp */ = {
+			isa = PBXGroup;
+			children = (
+				1123DD8315E2DF6D0028A9C4 /* AppDelegate.h */,
+				1123DD8415E2DF6D0028A9C4 /* AppDelegate.m */,
+				1123DDB015E2F4D40028A9C4 /* DisplayMessageViewController.h */,
+				1123DDB115E2F4D40028A9C4 /* DisplayMessageViewController.m */,
+				1123DDB215E2F4D40028A9C4 /* DisplayMessageViewController.xib */,
+				1123DDA315E2E6AB0028A9C4 /* ListMessagesViewController.h */,
+				1123DDA415E2E6AB0028A9C4 /* ListMessagesViewController.m */,
+				1123DDA515E2E6AB0028A9C4 /* ListMessagesViewController.xib */,
+				1123DD8B15E2E0D40028A9C4 /* Message.h */,
+				1123DD8C15E2E0D40028A9C4 /* Message.m */,
+				1123DD8E15E2E1320028A9C4 /* MessageStore.h */,
+				1123DD8F15E2E1320028A9C4 /* MessageStore.m */,
+				1123DD7B15E2DF6D0028A9C4 /* Supporting Files */,
+			);
+			path = MessengerApp;
+			sourceTree = "<group>";
+		};
+		1123DD7B15E2DF6D0028A9C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1123DD7C15E2DF6D0028A9C4 /* MessengerApp-Info.plist */,
+				1123DD7D15E2DF6D0028A9C4 /* InfoPlist.strings */,
+				1123DD8015E2DF6D0028A9C4 /* main.m */,
+				1123DD8215E2DF6D0028A9C4 /* MessengerApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1123DD6F15E2DF6C0028A9C4 /* MessengerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1123DD8815E2DF6D0028A9C4 /* Build configuration list for PBXNativeTarget "MessengerApp" */;
+			buildPhases = (
+				1123DD6C15E2DF6C0028A9C4 /* Sources */,
+				1123DD6D15E2DF6C0028A9C4 /* Frameworks */,
+				1123DD6E15E2DF6C0028A9C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessengerApp;
+			productName = MessengerApp;
+			productReference = 1123DD7015E2DF6D0028A9C4 /* MessengerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1123DD6715E2DF6C0028A9C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Edward Ruggeri";
+			};
+			buildConfigurationList = 1123DD6A15E2DF6C0028A9C4 /* Build configuration list for PBXProject "MessengerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1123DD6515E2DF6C0028A9C4;
+			productRefGroup = 1123DD7115E2DF6D0028A9C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1123DD6F15E2DF6C0028A9C4 /* MessengerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1123DD6E15E2DF6C0028A9C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1123DD7F15E2DF6D0028A9C4 /* InfoPlist.strings in Resources */,
+				1123DDA715E2E6AB0028A9C4 /* ListMessagesViewController.xib in Resources */,
+				1123DDB415E2F4D40028A9C4 /* DisplayMessageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1123DD6C15E2DF6C0028A9C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1123DD8115E2DF6D0028A9C4 /* main.m in Sources */,
+				1123DD8515E2DF6D0028A9C4 /* AppDelegate.m in Sources */,
+				1123DD8D15E2E0D40028A9C4 /* Message.m in Sources */,
+				1123DD9015E2E1320028A9C4 /* MessageStore.m in Sources */,
+				1123DDA615E2E6AB0028A9C4 /* ListMessagesViewController.m in Sources */,
+				1123DDB315E2F4D40028A9C4 /* DisplayMessageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1123DD7D15E2DF6D0028A9C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1123DD7E15E2DF6D0028A9C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1123DD8615E2DF6D0028A9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1123DD8715E2DF6D0028A9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1123DD8915E2DF6D0028A9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MessengerApp/MessengerApp-Prefix.pch";
+				INFOPLIST_FILE = "MessengerApp/MessengerApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1123DD8A15E2DF6D0028A9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MessengerApp/MessengerApp-Prefix.pch";
+				INFOPLIST_FILE = "MessengerApp/MessengerApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1123DD6A15E2DF6C0028A9C4 /* Build configuration list for PBXProject "MessengerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1123DD8615E2DF6D0028A9C4 /* Debug */,
+				1123DD8715E2DF6D0028A9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1123DD8815E2DF6D0028A9C4 /* Build configuration list for PBXNativeTarget "MessengerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1123DD8915E2DF6D0028A9C4 /* Debug */,
+				1123DD8A15E2DF6D0028A9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1123DD6715E2DF6C0028A9C4 /* Project object */;
+}

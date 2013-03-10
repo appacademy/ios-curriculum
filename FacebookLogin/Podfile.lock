@@ -1,0 +1,14 @@
+
+PODS:
+- Facebook-iOS-SDK (3.0.8):
+  - SBJson (= 2.2.3)
+- SBJson (2.2.3)
+
+DEPENDENCIES:
+- Facebook-iOS-SDK
+
+SPEC CHECKSUMS:
+  Facebook-iOS-SDK: b0ba662e2a7d39a76ff04cca7d42f6d4b629fffb
+  SBJson: cc373c9eed9314a45715e4fb77a1415c45fa056e
+
+COCOAPODS: 0.14.0

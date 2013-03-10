@@ -1,0 +1,15 @@
+<h1>Restaurant info</h1>
+<ul>
+  <li><%= @restaurant.name %></li>
+  <li><%= @restaurant.cuisine %></li>
+  <li><%= @restaurant.address %></li>
+</ul>
+
+<h1>Reviews</h1>
+<ul>
+  <% for review in @restaurant.reviews %>
+    <li><%= link_to review.title, review_url(review) %></li>
+  <% end %>
+</ul>
+
+<%= link_to "New review!", new_review_url(:restaurant_id => @restaurant.id) %>

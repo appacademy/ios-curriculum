@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11DF26F415AFCEDC00B5CF9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF26F315AFCEDC00B5CF9C /* Foundation.framework */; };
+		11DF26F715AFCEDC00B5CF9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF26F615AFCEDC00B5CF9C /* main.m */; };
+		11DF26FB15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11DF26FA15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC.1 */; };
+		11DF270915AFDCBF00B5CF9C /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF270815AFDCBF00B5CF9C /* Movie.m */; };
+		11DF270C15AFDE6200B5CF9C /* Critic.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF270B15AFDE6200B5CF9C /* Critic.m */; };
+		11DF270F15AFE1BE00B5CF9C /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF270E15AFE1BE00B5CF9C /* Book.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11DF26ED15AFCEDC00B5CF9C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				11DF26FB15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11DF26EF15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectOrientedObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DF26F315AFCEDC00B5CF9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11DF26F615AFCEDC00B5CF9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11DF26F915AFCEDC00B5CF9C /* ObjectOrientedObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectOrientedObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		11DF26FA15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjectOrientedObjectiveC.1; sourceTree = "<group>"; };
+		11DF270715AFDCBF00B5CF9C /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		11DF270815AFDCBF00B5CF9C /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		11DF270A15AFDE6200B5CF9C /* Critic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Critic.h; sourceTree = "<group>"; };
+		11DF270B15AFDE6200B5CF9C /* Critic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Critic.m; sourceTree = "<group>"; };
+		11DF270D15AFE1BE00B5CF9C /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		11DF270E15AFE1BE00B5CF9C /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		11DF271015AFE25300B5CF9C /* Artwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Artwork.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11DF26EC15AFCEDC00B5CF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DF26F415AFCEDC00B5CF9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DF26E415AFCEDC00B5CF9C = {
+			isa = PBXGroup;
+			children = (
+				11DF26F515AFCEDC00B5CF9C /* ObjectOrientedObjectiveC */,
+				11DF26F215AFCEDC00B5CF9C /* Frameworks */,
+				11DF26F015AFCEDC00B5CF9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11DF26F015AFCEDC00B5CF9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11DF26EF15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11DF26F215AFCEDC00B5CF9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11DF26F315AFCEDC00B5CF9C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11DF26F515AFCEDC00B5CF9C /* ObjectOrientedObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				11DF26F615AFCEDC00B5CF9C /* main.m */,
+				11DF271015AFE25300B5CF9C /* Artwork.h */,
+				11DF270A15AFDE6200B5CF9C /* Critic.h */,
+				11DF270B15AFDE6200B5CF9C /* Critic.m */,
+				11DF270D15AFE1BE00B5CF9C /* Book.h */,
+				11DF270E15AFE1BE00B5CF9C /* Book.m */,
+				11DF270715AFDCBF00B5CF9C /* Movie.h */,
+				11DF270815AFDCBF00B5CF9C /* Movie.m */,
+				11DF26FA15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC.1 */,
+				11DF26F815AFCEDC00B5CF9C /* Supporting Files */,
+			);
+			path = ObjectOrientedObjectiveC;
+			sourceTree = "<group>";
+		};
+		11DF26F815AFCEDC00B5CF9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11DF26F915AFCEDC00B5CF9C /* ObjectOrientedObjectiveC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11DF26EE15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DF26FE15AFCEDC00B5CF9C /* Build configuration list for PBXNativeTarget "ObjectOrientedObjectiveC" */;
+			buildPhases = (
+				11DF26EB15AFCEDC00B5CF9C /* Sources */,
+				11DF26EC15AFCEDC00B5CF9C /* Frameworks */,
+				11DF26ED15AFCEDC00B5CF9C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectOrientedObjectiveC;
+			productName = ObjectOrientedObjectiveC;
+			productReference = 11DF26EF15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11DF26E615AFCEDC00B5CF9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Hash Map Labs";
+			};
+			buildConfigurationList = 11DF26E915AFCEDC00B5CF9C /* Build configuration list for PBXProject "ObjectOrientedObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11DF26E415AFCEDC00B5CF9C;
+			productRefGroup = 11DF26F015AFCEDC00B5CF9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11DF26EE15AFCEDC00B5CF9C /* ObjectOrientedObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11DF26EB15AFCEDC00B5CF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DF26F715AFCEDC00B5CF9C /* main.m in Sources */,
+				11DF270915AFDCBF00B5CF9C /* Movie.m in Sources */,
+				11DF270C15AFDE6200B5CF9C /* Critic.m in Sources */,
+				11DF270F15AFE1BE00B5CF9C /* Book.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11DF26FC15AFCEDC00B5CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		11DF26FD15AFCEDC00B5CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11DF26FF15AFCEDC00B5CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectOrientedObjectiveC/ObjectOrientedObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11DF270015AFCEDC00B5CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectOrientedObjectiveC/ObjectOrientedObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11DF26E915AFCEDC00B5CF9C /* Build configuration list for PBXProject "ObjectOrientedObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DF26FC15AFCEDC00B5CF9C /* Debug */,
+				11DF26FD15AFCEDC00B5CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11DF26FE15AFCEDC00B5CF9C /* Build configuration list for PBXNativeTarget "ObjectOrientedObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DF26FF15AFCEDC00B5CF9C /* Debug */,
+				11DF270015AFCEDC00B5CF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11DF26E615AFCEDC00B5CF9C /* Project object */;
+}

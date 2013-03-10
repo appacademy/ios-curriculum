@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B5E50215E94602002E5A56 /* WorkBikeRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B5E50015E94602002E5A56 /* WorkBikeRouteViewController.m */; };
+		11B5E50315E94602002E5A56 /* WorkBikeRouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B5E50115E94602002E5A56 /* WorkBikeRouteViewController.xib */; };
+		11B5E50615E94627002E5A56 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B5E50515E94627002E5A56 /* MapKit.framework */; };
+		11B5E50815E9495F002E5A56 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B5E50715E9495F002E5A56 /* CoreLocation.framework */; };
+		11E51BB915E94322000182B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E51BB815E94322000182B0 /* UIKit.framework */; };
+		11E51BBB15E94322000182B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E51BBA15E94322000182B0 /* Foundation.framework */; };
+		11E51BBD15E94322000182B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E51BBC15E94322000182B0 /* CoreGraphics.framework */; };
+		11E51BC315E94322000182B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11E51BC115E94322000182B0 /* InfoPlist.strings */; };
+		11E51BC515E94322000182B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E51BC415E94322000182B0 /* main.m */; };
+		11E51BC915E94322000182B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E51BC815E94322000182B0 /* AppDelegate.m */; };
+		EB40502B7E674E838901EF1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7A6D4A811949E896D379B4 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		061201AEF3934C92B3BDB032 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		11B5E4FF15E94602002E5A56 /* WorkBikeRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkBikeRouteViewController.h; sourceTree = "<group>"; };
+		11B5E50015E94602002E5A56 /* WorkBikeRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkBikeRouteViewController.m; sourceTree = "<group>"; };
+		11B5E50115E94602002E5A56 /* WorkBikeRouteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkBikeRouteViewController.xib; sourceTree = "<group>"; };
+		11B5E50515E94627002E5A56 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		11B5E50715E9495F002E5A56 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		11E51BB415E94322000182B0 /* MapKitOverlaysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitOverlaysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E51BB815E94322000182B0 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11E51BBA15E94322000182B0 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11E51BBC15E94322000182B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11E51BC015E94322000182B0 /* MapKitOverlaysDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapKitOverlaysDemo-Info.plist"; sourceTree = "<group>"; };
+		11E51BC215E94322000182B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11E51BC415E94322000182B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11E51BC615E94322000182B0 /* MapKitOverlaysDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapKitOverlaysDemo-Prefix.pch"; sourceTree = "<group>"; };
+		11E51BC715E94322000182B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11E51BC815E94322000182B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB7A6D4A811949E896D379B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11E51BB115E94322000182B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B5E50815E9495F002E5A56 /* CoreLocation.framework in Frameworks */,
+				11B5E50615E94627002E5A56 /* MapKit.framework in Frameworks */,
+				11E51BB915E94322000182B0 /* UIKit.framework in Frameworks */,
+				11E51BBB15E94322000182B0 /* Foundation.framework in Frameworks */,
+				11E51BBD15E94322000182B0 /* CoreGraphics.framework in Frameworks */,
+				EB40502B7E674E838901EF1C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E51BA915E94322000182B0 = {
+			isa = PBXGroup;
+			children = (
+				11B5E50715E9495F002E5A56 /* CoreLocation.framework */,
+				11E51BBE15E94322000182B0 /* MapKitOverlaysDemo */,
+				11E51BB715E94322000182B0 /* Frameworks */,
+				11E51BB515E94322000182B0 /* Products */,
+				061201AEF3934C92B3BDB032 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		11E51BB515E94322000182B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11E51BB415E94322000182B0 /* MapKitOverlaysDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11E51BB715E94322000182B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11B5E50515E94627002E5A56 /* MapKit.framework */,
+				11E51BB815E94322000182B0 /* UIKit.framework */,
+				11E51BBA15E94322000182B0 /* Foundation.framework */,
+				11E51BBC15E94322000182B0 /* CoreGraphics.framework */,
+				EB7A6D4A811949E896D379B4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11E51BBE15E94322000182B0 /* MapKitOverlaysDemo */ = {
+			isa = PBXGroup;
+			children = (
+				11E51BC715E94322000182B0 /* AppDelegate.h */,
+				11E51BC815E94322000182B0 /* AppDelegate.m */,
+				11B5E4FF15E94602002E5A56 /* WorkBikeRouteViewController.h */,
+				11B5E50015E94602002E5A56 /* WorkBikeRouteViewController.m */,
+				11B5E50115E94602002E5A56 /* WorkBikeRouteViewController.xib */,
+				11E51BBF15E94322000182B0 /* Supporting Files */,
+			);
+			path = MapKitOverlaysDemo;
+			sourceTree = "<group>";
+		};
+		11E51BBF15E94322000182B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11E51BC015E94322000182B0 /* MapKitOverlaysDemo-Info.plist */,
+				11E51BC115E94322000182B0 /* InfoPlist.strings */,
+				11E51BC415E94322000182B0 /* main.m */,
+				11E51BC615E94322000182B0 /* MapKitOverlaysDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11E51BB315E94322000182B0 /* MapKitOverlaysDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E51BCC15E94322000182B0 /* Build configuration list for PBXNativeTarget "MapKitOverlaysDemo" */;
+			buildPhases = (
+				11E51BB015E94322000182B0 /* Sources */,
+				11E51BB115E94322000182B0 /* Frameworks */,
+				11E51BB215E94322000182B0 /* Resources */,
+				EC5C249E18FA42738B20E3AE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapKitOverlaysDemo;
+			productName = MapKitOverlaysDemo;
+			productReference = 11E51BB415E94322000182B0 /* MapKitOverlaysDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11E51BAB15E94322000182B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Edward Ruggeri";
+			};
+			buildConfigurationList = 11E51BAE15E94322000182B0 /* Build configuration list for PBXProject "MapKitOverlaysDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11E51BA915E94322000182B0;
+			productRefGroup = 11E51BB515E94322000182B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11E51BB315E94322000182B0 /* MapKitOverlaysDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11E51BB215E94322000182B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E51BC315E94322000182B0 /* InfoPlist.strings in Resources */,
+				11B5E50315E94602002E5A56 /* WorkBikeRouteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC5C249E18FA42738B20E3AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E51BB015E94322000182B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E51BC515E94322000182B0 /* main.m in Sources */,
+				11E51BC915E94322000182B0 /* AppDelegate.m in Sources */,
+				11B5E50215E94602002E5A56 /* WorkBikeRouteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11E51BC115E94322000182B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11E51BC215E94322000182B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11E51BCA15E94322000182B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11E51BCB15E94322000182B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11E51BCD15E94322000182B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061201AEF3934C92B3BDB032 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapKitOverlaysDemo/MapKitOverlaysDemo-Prefix.pch";
+				INFOPLIST_FILE = "MapKitOverlaysDemo/MapKitOverlaysDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11E51BCE15E94322000182B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061201AEF3934C92B3BDB032 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapKitOverlaysDemo/MapKitOverlaysDemo-Prefix.pch";
+				INFOPLIST_FILE = "MapKitOverlaysDemo/MapKitOverlaysDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11E51BAE15E94322000182B0 /* Build configuration list for PBXProject "MapKitOverlaysDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E51BCA15E94322000182B0 /* Debug */,
+				11E51BCB15E94322000182B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E51BCC15E94322000182B0 /* Build configuration list for PBXNativeTarget "MapKitOverlaysDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E51BCD15E94322000182B0 /* Debug */,
+				11E51BCE15E94322000182B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11E51BAB15E94322000182B0 /* Project object */;
+}

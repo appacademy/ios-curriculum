@@ -1,0 +1,2 @@
+module RestaurantsHelper
+end

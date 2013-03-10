@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/ice_cream_finder'
+require 'trollop'
+
+SF_LAT = 37.7750
+SF_LNG = -122.4183
+
+# optional
+opts = Trollop::options do
+  opt :lat, "current latitude", :type => :float, :default => SF_LAT
+  opt :lng, "current longitude", :type => :float, :default => SF_LNG
+  opt :query, "place to find", :type => :string, :default => "ice cream"
+end
+
+puts find_places(opts[:lat], opts[:lng], opts[:query])
